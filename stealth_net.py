@@ -8,7 +8,7 @@ from encryption import encrypt, decrypt
 
 def server_loop():
 	if len(sys.argv) == 1:
-		print("[-] Please specify the remote host and port...!")
+		print("[-] Please specify the proxy host and port...!")
 		print("[*] Example: python3 stealth_net.py 192.168.31.137 1234")
 		sys.exit(0)
 	PUBLIC_KEY = "Stealth_Net_v_1.0.1"
